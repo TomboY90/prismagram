@@ -1,0 +1,24 @@
+{
+  "name": "prismagram",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/TomboY90/prismagram.git",
+  "author": "TomboY90 <rjsahdia3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "dotenv": "^8.2.0",
+    "graphql-tools": "^4.0.6",
+    "graphql-yoga": "^1.18.3",
+    "merge-graphql-schemas": "^1.7.3",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
